@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-import serverAuth from "/Users/alucard/Documents/Builds/twitter-clone/libs/serverAuth";
-import prisma from "/Users/alucard/Documents/Builds/twitter-clone/libs/prismadb";
+import serverAuth from "../../libs/serverAuth";
+import prisma from "../../libs/prismadb";
 
 export default async function handler(
   req: NextApiRequest,

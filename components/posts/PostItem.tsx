@@ -3,9 +3,9 @@ import { useCallback, useMemo } from 'react';
 import { AiFillHeart, AiOutlineHeart, AiOutlineMessage } from 'react-icons/ai';
 import { formatDistanceToNowStrict } from 'date-fns';
 
-import useLoginModal from '/Users/alucard/Documents/Builds/twitter-clone/hooks/useLoginModal';
-import useCurrentUser from '/Users/alucard/Documents/Builds/twitter-clone//hooks/useCurrentUser';
-import useLike from '/Users/alucard/Documents/Builds/twitter-clone/hooks/useLike';
+import useLoginModal from '../../hooks/useLoginModal';
+import useCurrentUser from '../../hooks/useCurrentUser';
+import useLike from '../../hooks/useLike';
 
 import Avatar from '../Avatar';
 interface PostItemProps {

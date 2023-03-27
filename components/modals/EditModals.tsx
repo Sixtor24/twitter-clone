@@ -2,9 +2,9 @@ import axios from "axios";
 import { useCallback, useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 
-import useCurrentUser from "/Users/alucard/Documents/Builds/twitter-clone/hooks/useCurrentUser";
-import useEditModal from "/Users/alucard/Documents/Builds/twitter-clone/hooks/useEditModal";
-import useUser from "/Users/alucard/Documents/Builds/twitter-clone/hooks/useUser";
+import useCurrentUser from "../../hooks/useCurrentUser";
+import useEditModal from "../../hooks/useEditModal";
+import useUser from "../../hooks/useUser";
 
 import Input from "../Input";
 import Modal from "../Modal";

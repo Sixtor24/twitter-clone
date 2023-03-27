@@ -1,4 +1,4 @@
-import useUsers from '/Users/alucard/Documents/Builds/twitter-clone/hooks/useUsers';
+import useUsers from '../../hooks/useUsers';
 
 import Avatar from '../Avatar';
 

@@ -1,6 +1,6 @@
 import useSWR from "swr";
 
-import fetcher from "/Users/alucard/Documents/Builds/twitter-clone/libs/fetcher";
+import fetcher from "../libs/fetcher";
 
 const usePosts = (userId?: string) => {
     const url = userId ? `/api/posts?userId=${userId}` : "/api/posts";

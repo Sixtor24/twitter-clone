@@ -1,4 +1,4 @@
-import usePosts from '/Users/alucard/Documents/Builds/twitter-clone/hooks/usePosts';
+import usePosts from '../../hooks/usePosts';
 
 import PostItem from './PostItem';
 

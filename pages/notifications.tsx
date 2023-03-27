@@ -1,5 +1,5 @@
-    import Header from "/Users/alucard/Documents/Builds/twitter-clone/components/Header";
-    import NotificationsFeed from "/Users/alucard/Documents/Builds/twitter-clone/components/NotificationsFeed";
+    import Header from "../components/Header";
+    import NotificationsFeed from "../components/NotificationsFeed";
     import { NextPageContext } from "next";
     import { getSession } from "next-auth/react";
 

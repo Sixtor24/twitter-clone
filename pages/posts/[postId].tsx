@@ -1,12 +1,12 @@
     import { useRouter } from "next/router";
     import { ClipLoader } from "react-spinners";
 
-    import usePost from "/Users/alucard/Documents/Builds/twitter-clone/hooks/usePost";
+    import usePost from "../../hooks/usePost";
 
-    import Header from "/Users/alucard/Documents/Builds/twitter-clone/components/Header";
-    import Form from "/Users/alucard/Documents/Builds/twitter-clone/components/Form";
-    import PostItem from "/Users/alucard/Documents/Builds/twitter-clone/components/posts/PostItem";
-    import CommentFeed from "/Users/alucard/Documents/Builds/twitter-clone/components/posts/CommentFeed";
+    import Header from "../../components/Header";
+    import Form from "../../components/Form";
+    import PostItem from "../../components/posts/PostItem";
+    import CommentFeed from "../../components/posts/CommentFeed";
 
 
     const PostView = () => {

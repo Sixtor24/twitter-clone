@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-import prisma from "/Users/alucard/Documents/Builds/twitter-clone/libs/prismadb";
+import prisma from "../../../libs/prismadb";
 
 export default async function handler(
   req: NextApiRequest,
