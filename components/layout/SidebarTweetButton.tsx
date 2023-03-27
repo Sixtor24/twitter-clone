@@ -6,7 +6,7 @@ import { useCallback } from "react";
 const SidebarTweetButton = () => {
     const router = useRouter();
     const loginModal = useLoginModal();
-  
+
     const onClick = useCallback(() => {
         loginModal.onOpen();
     }, [loginModal]);

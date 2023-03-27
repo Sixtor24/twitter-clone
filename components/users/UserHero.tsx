@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import useUser from "/Users/alucard/Documents/Builds/twitter-clone/hooks/useUser";
+import useUser from "../../hooks/useUser";
 
 import Avatar from "../Avatar"
 

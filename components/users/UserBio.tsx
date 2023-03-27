@@ -2,10 +2,10 @@ import { useMemo } from "react";
 import { BiCalendar } from "react-icons/bi";
 import { format } from "date-fns";
 
-import useCurrentUser from "/Users/alucard/Documents/Builds/twitter-clone/hooks/useCurrentUser";
-import useUser from "/Users/alucard/Documents/Builds/twitter-clone/hooks/useUser";
-import useFollow from "/Users/alucard/Documents/Builds/twitter-clone/hooks/useFollow";
-import useEditModal from "/Users/alucard/Documents/Builds/twitter-clone/hooks/useEditModal";
+import useCurrentUser from "../../hooks/useCurrentUser";
+import useUser from "../../hooks/useUser";
+import useFollow from "../../hooks/useFollow";
+import useEditModal from "../../hooks/useEditModal";
 
 import Button from "../Button";
 
